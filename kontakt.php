@@ -125,7 +125,7 @@
 			color-on-scroll="100">
 			<div class="container">
 				<div class="navbar-translate">
-					<a class="navbar-brand" href="index.html"
+					<a class="navbar-brand" href="/"
 						><svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="logo"
@@ -168,7 +168,7 @@
 				<div class="collapse navbar-collapse">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a href="index.html" class="nav-link close-nav">
+							<a href="/" class="nav-link close-nav">
 								<i class="material-icons">home</i> Home
 							</a>
 						</li>
