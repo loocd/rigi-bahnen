@@ -9,7 +9,7 @@
 			$message = $_POST['nachricht'];
 
         
-            $mailTo = "pascal@mogy.ch";
+            $mailTo = "noreply@loocd.ch";
 			$betreff = "Neue Nachricht von " .$name;
 			$txt = "<html>";
 			$txt .= "<style></style>";
