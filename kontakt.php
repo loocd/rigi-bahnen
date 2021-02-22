@@ -9,7 +9,7 @@
 			$message = $_POST['nachricht'];
 
         
-            $mailTo = "noreply@loocd.ch";
+            $mailTo = "contact@loocd.ch";
 			$betreff = "Neue Nachricht von " .$name;
 			$txt = "<html>";
 			$txt .= "<style></style>";
@@ -50,11 +50,9 @@
 								</tr>
 							</table>";
 			$txtSender .= "<p>Ich werde mich so bald wie möglich bei dir melden.</p>";
-			$txtSender .= "Liebe Grüsse <br>";
-			$txtSender .= "Pascal";
 			$txtSender .= "</body></html>";
 			
-			$headersSender = "From: noreply@mogy.ch\r\n";
+			$headersSender = "From: contact@loocd.ch\r\n";
 			$headersSender .= "MIME-Version: 1.0\r\n";
 			$headersSender .= "Content-Type: text/html; charset=utf-8\r\n";
 			
